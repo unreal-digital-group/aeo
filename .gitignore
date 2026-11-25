@@ -1,0 +1,34 @@
+# --- OS cruft (Windows / macOS) ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+.DS_Store
+._*
+
+# --- Google Drive / Office shadow + lock files ---
+~$*
+*.tmp
+*.gdoc
+*.gsheet
+*.gslides
+.~lock.*
+
+# --- Editor / IDE ---
+.vscode/
+.idea/
+*.swp
+*~
+
+# --- Local-only Claude Code settings (per-machine, not shared) ---
+.claude/settings.local.json
+
+# --- Scratch / staging (never source of record) ---
+/_scratch/
+/scratch/
+
+# --- Skill packages (build outputs of skills/build.py, not source) ---
+/skills/dist/
+*.skill
+__pycache__/

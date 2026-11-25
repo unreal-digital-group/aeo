@@ -1,0 +1,3 @@
+# Skill text must stay byte-identical to the installed copies, so a diff against
+# them shows only real changes. Disable all line-ending normalization.
+* -text
